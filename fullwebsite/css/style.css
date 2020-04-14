@@ -1,0 +1,76 @@
+body{
+	background: url('../images/bg.jpg');
+	margin: 0;
+}
+
+#header {
+	float: left;
+	background: rgba(38, 116, 207, 0.3);
+	width: 100%;
+}
+
+#header img {
+	width: 40px;
+	margin-left: 30px;
+}
+
+#logo {
+	float: left;
+	padding: 5px;
+}
+
+#firstNavigation {
+	float: left;
+	margin-left: 30px;
+}
+
+#firstNavigation ul {
+	list-style-type: none;
+	padding: 0; 
+	margin: 0;
+}
+
+#firstNavigation ul li {
+	display: inline-block;
+	text-align: center;
+}
+
+#firstNavigation ul li a{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 20px;
+	font-family: arial;
+	font-size: 15px;
+}
+
+#firstNavigation ul ul {
+	background: rgb(38, 116, 207);
+	position: absolute;
+	top: 55px;
+	display: none;
+}
+
+#firstNavigation li li a:hover {
+	background: #fff;
+	color: rgb(38,116,207);
+}
+
+#firstNavigation a:hover {
+	background: rgb(38,116,207);
+}
+
+#firstNavigation li li{
+	display:block;
+	text-align: left;
+}
+
+#firstNavigation li li a{
+	display: block;
+	padding: 20px;
+}
+
+#firstNavigation li:hover > #subMenu {
+	display: block;
+}
+
