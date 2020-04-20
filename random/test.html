@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Do it</title>
+	<style>
+		body {
+			margin: 0;
+		}
+
+		div.navigation {
+			background: black;
+			position: fixed;
+			top: 0;
+			width: 100%;
+		}
+
+		div.navigation ul {
+			margin: 0;
+			padding: 0;
+			display: inline-block;
+		}
+
+		div.navigation ul ul {
+			display: none;
+			position: absolute;
+			background: #fff;
+			box-shadow: 0 0 3px #777;
+		}
+
+		div.navigation ul li {
+			display: inline-block;
+		}
+		
+		div.navigation ul li a {
+			display: block;
+			padding: 15px 30px;
+			text-decoration: none;
+			color: white;
+			text-transform: uppercase;
+			font-family: arial;
+			font-size: 15px;
+		}
+
+		div.navigation ul li:hover > #sub {
+			display: block;
+		}
+
+		div.navigation ul li li a {
+			color: black;
+		}
+
+		div.navigation ul li a:hover {
+			background: #666;
+		}
+		
+		div.navigation ul li li {
+			display: block;
+		}
+
+		ul#search {
+			float: right;
+		}
+
+		ul#search li a:hover {
+			background: red;
+		}
+
+		div.write {
+			padding: 50px 25%;
+			text-align: center;
+			font-family: arial;
+		}
+
+		div.write-top small {
+			font-style: italic;
+			color: #999;
+			font-size: 15px;
+		}
+
+		div.write-top p {
+			text-align: justify;
+			font-size: 14px;
+			line-height: 23px;
+		}
+			
+	
+		div.write-bottom {
+			padding: 10px;
+		}
+
+		div.write-bottom div {
+			display: inline-block;
+			width: 250px;
+			margin: 10px;
+		}
+
+		div.write-bottom  img {
+			width: 100%;
+			border-radius: 5px;
+		}
+
+	</style>
+</head>
+<body>
+
+
+	<section>
+		<div class="navigation">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Band</a></li>
+				<li><a href="#">Tour</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">More</a>
+					<ul id="sub">
+						<li><a href="#">Merchandise</a></li>
+						<li><a href="#">Extra</a></li>
+						<li><a href="#">Media</a></li>
+					</ul>
+				</li>
+			</ul>
+
+			<ul id="search">
+				<li><a href="#" class="search">Search</a></li>
+			</ul>
+		</div>
+	</section>
+
+
+	<section>
+		<div class="gallery">
+			<img src="https://wallpaperaccess.com/full/251618.jpg" alt="">
+		</div>
+	</section>
+
+	<section>
+		<div class="write">
+			<div class="write-top">
+				<h2>THE BAND</h2>
+
+				<small>We love Music</small>
+
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur harum, placeat pariatur ipsa, soluta, nobis commodi eveniet temporibus nisi ipsum aliquid corporis eum, excepturi architecto labore nihil velit laborum voluptatem!
+				</p>
+			</div>
+
+			<div class="write-bottom">
+				<div>
+					<p>Amazing</p>
+					<img src="https://i.pinimg.com/564x/17/2a/3c/172a3c75dd268f2de3cde515f51c3f86.jpg" alt="">
+				</div>
+				<div>
+					<p>Amazing</p>
+					<img src="https://i.pinimg.com/564x/17/2a/3c/172a3c75dd268f2de3cde515f51c3f86.jpg" alt="">
+				</div>
+				<div>
+					<p>Amazing</p>
+					<img src="https://i.pinimg.com/564x/17/2a/3c/172a3c75dd268f2de3cde515f51c3f86.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="tour"></div>
+	</section>
+	<section>
+		<div class="contact"></div>
+	</section>
+	<section>
+		<div class="map"></div>
+	</section>
+	<section>
+		<div class="footer"></div>
+	</section>
+</body>
+</html>
