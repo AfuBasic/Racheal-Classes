@@ -99,6 +99,100 @@
 			border-radius: 5px;
 		}
 
+		div.tour {
+			background: black;
+			padding: 50px 25%;
+		}
+		.tour-title
+		{
+			color: white;
+			font-family: arial;
+			font-size: 29px;
+			text-align: center;
+			font-weight: normal;
+			letter-spacing: 8px;
+			margin-bottom: 20px;
+		}
+
+		.tour-tagline
+		{
+			text-align: center;
+			color: #999;
+			font-style: italic;
+			font-family: arial;
+		}
+
+		div.timing {
+			background: #fff;
+			font-family: arial;
+			color: #999;
+		}
+
+		.timing div {
+			padding: 10px;
+			border-bottom: 1px solid #ddd;
+		}
+
+		.timing div .soldout {
+			background: red;
+			color: white;
+			font-size: 14px;
+			padding: 4px 8px;
+			margin-left: 20px;
+		}
+
+		.timing div .count {
+			background: black;
+			color: white;
+			padding: 5px 10px;
+			border-radius: 50%;
+			float: right;
+		}
+
+
+		div.new-york{
+			display: inline-block;
+			width: 32%;
+			margin: 0 1.5% 0 0;
+			background: white;
+		}
+
+		div.image img {
+			width: 100%;
+		}
+
+		div.states {
+			margin-top: 30px;
+		}
+
+		div.states .actions {
+			padding: 15px;
+			font-family: arial;
+		}
+
+		.actions .state-title {
+			margin: 10px 0;
+		}
+
+		.state-date {
+			color: #999;
+			font-size: 13px;
+		}
+
+		.state-link {
+			text-decoration: none;
+			color: white;
+			background: black;
+			display: inline-block;
+			padding: 10px 15px;
+			transition: .7s;
+		}
+
+		.state-link:hover {
+			background: #ccc;
+			color: black;
+		}
+
 	</style>
 </head>
 <body>
@@ -168,7 +262,54 @@
 		</div>
 	</section>
 	<section>
-		<div class="tour"></div>
+		<div class="tour">
+			<div class="tour-header">
+				<h5 class="tour-title">TOUR DATES</h5>
+				<p class="tour-tagline">Remember to book your tickets</p>
+			</div>
+
+			<div class="timing">
+				<div>September <span class="soldout">Sold out</span></div>
+				<div>October <span class="soldout">Sold out</span></div>
+				<div>November <span class="count">3</span></div>
+			</div>
+
+			<div class="states">
+				<div class="new-york">
+					<div class="image">
+						<img src="https://images.unsplash.com/photo-1534430480872-3498386e7856?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max" alt="">
+					</div>
+					<div class="actions">
+						<h4 class="state-title">New York</h4>
+						<p class="state-date">Nov 27, 2020 5pm</p>
+						<p class="state-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+						<a class="state-link" href="#">Buy Tickets</a>
+					</div>
+				</div>
+				<div class="new-york">
+					<div class="image">
+						<img src="https://images.unsplash.com/photo-1534430480872-3498386e7856?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max" alt="">
+					</div>
+					<div class="actions">
+						<h4 class="state-title">New York</h4>
+						<p class="state-date">Nov 27, 2020 5pm</p>
+						<p class="state-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+						<a class="state-link" href="#">Buy Tickets</a>
+					</div>
+				</div>
+				<div class="new-york" style="margin-right: 0;">
+					<div class="image">
+						<img src="https://images.unsplash.com/photo-1534430480872-3498386e7856?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max" alt="">
+					</div>
+					<div class="actions">
+						<h4 class="state-title">New York</h4>
+						<p class="state-date">Nov 27, 2020 5pm</p>
+						<p class="state-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+						<a class="state-link" href="#">Buy Tickets</a>
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
 	<section>
 		<div class="contact"></div>
